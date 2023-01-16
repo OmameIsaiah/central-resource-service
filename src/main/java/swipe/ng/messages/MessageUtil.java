@@ -164,5 +164,83 @@ public class MessageUtil {
 
     public static final String ERROR = "Error";
 
+//    From swipe-pay service
+public final static String PAYMENT_SUCCESSFUL = "Great, transaction processed successfully.";
+    public final static String PAYMENT_IN_PROGRESS = "Great, you've selected transfer payment option. Kindly transfer money to your account number to proceed.";
+    public final static String AMOUNT_TO_PAY = "You will be required to make a deposit for this transaction. Would you like to make an initial deposit of NGN%s to complete the transaction?";
+    public final static String SELECT_LONGER_REPAYMENT = "Kindly select a longer repayment period to complete the transaction.";
+
+    public final static String INVALID_AMOUNT = "Invalid amount. Amount must be greater than 0";
+
+
+    public final static String INVALID_PIN = "It looks like you provided an incorrect pin. Kindly provide the correct pin to complete the transaction.";
+    public final static String INVALID_MERCHANT = "It looks like the Merchant is not authorised. Please ensure that the merchant is an authorised Swipe merchant to continue.";
+    public final static String RECORD_NOT_FOUND = "Your account is invalid.";
+
+    public final static String CARD_NOT_AVAILABLE = "Card not available on the specified merchant.";
+
+    public final static String BVN_VERIFY = "Your bvn is successfully verified.";
+    public final static String INVALID_ACCOUNTNO = "Oops! Invalid transaction account provided.";
+    public final static String INVALID_TRAN_REF = "Oops! Unable to verify transaction at the moment. Please try again later.";
+    public final static String INVALID_VERIFICATION = "Please provide a valid BVN.";
+    public final static String INVALID_EMAIL = "Sorry the email provided is invalid. Please try again using another email.";
+//account-mod//
+public final static String DUPLICATE_LINKING = "Oops! This account has already been linked, please try with another account";
+
+
+    public final static String UNAUTHORIZED = "unauthorized";
+
+      public final static String PIN_VERIFIED_FAILED = "Oops!, invalid transaction PIN. Do you mind trying again?";
+    public final static String RECORD_NOT_FOUND_SORRY = "Oops, record not found. Sorry";
+    public final static String PASSWORD_RESET_INITIATED_MER = "Awesome, you have initiated password reset, kindly check your email "
+            + "to continue this process";
+
+    public static final String ACCOUNT_CREATED = "Great, account created successfully";
+    public final static String TWO_FACTOR_AUTH_DONE = "Awesome, your onetime code is set successfully";
+    public final static String TWOFA_DISABLED = "Oops, your onetime is disabled";
+    public final static String CODE_SENT = "The code has been sent";
+    //payment-service
+
+
+    public final static String INVALID_TRANSACTION = "Hello, transaction reference is invalid. Do you mind trying again?";
+
+
+    public final static String TRY_AGAIN = "Withdrawal not successful please try again ";
+    public final static String CREDENTIALS_NOT_SET = "Oops! bvn and transaction pin have not been set";
+    public final static String USER_BLACKLISTED = "Oops! This user is in blacklist";
+
+
+
+
+
+
+    public final static String COULD_NOT_GENERATE_LINK = "Oops!, link could not be generated";
+    public final static String BANK_NOT_FOUND = "Oops!, we have no record of such a bank detail. Kindly add a default payout bank";
+
+    public final static String VERIFICATION_ALREADY_DONE = "This verification has been previously completed.";
+    public final static String VERIFICATION_DONE = "Verification completed successfully";
+    public final static String WITHDRAWAL_MESSAGE = "Withdrawal not successful please try again ";
+
+
+
+    public  final static String WALLET_NOT_FOUND = "Wallet not found";
+
+
+    public final static String ORIGINAL_TRANSACTION_NOT_FOUND = "Original Transactions not found";
+    public final static String UNRECOGNIZE = "Unrecognized transaction reference";
+    public final static String EXCEEDING_DAILY_LIMIT = "Exceeding daily limit";
+    public final static String DO_NOT_HONOUR = "Do not honour";
+
+    public final static String INVALID_MAC = "Invalid mac";
+
+
+    public final static String INVALID_RC_NO = "Oops! company with specified details does not exists";
+    public final static String INSUFFICIENT_AMOUNT = "Oops, you do not have enough balance to perform this operation";
+
+    //card production
+
+    public final static String TRANSACTION_PIN_CHANGED="Transaction pin changed";
+
+
 
 }

@@ -32,4 +32,8 @@ public class AppCode {
     public static final Integer BAD_REQUEST_ID = 400;
     public static final String DUPLICATE_ID = "300";
     public final static String INVALID_USER = "204";
+
+
+
+
 }

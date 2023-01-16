@@ -25,6 +25,10 @@ public enum AppStatus {
     REJECT("Rejected");
 
 
+
+
+
+
     public final String label;
     private static final Map<String, AppStatus> map = new HashMap<>();
 

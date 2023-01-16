@@ -26,6 +26,9 @@ public enum AccountType {
     BANK(5, "BANK"),
     DISBURSEMENT(10, "DISBURSEMENT");
 
+
+
+
     public final Integer accountId;
     public final String label;
     private static final Map<String, AccountType> map = new HashMap<>();

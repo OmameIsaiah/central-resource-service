@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4628b9f9-efb8-43f1-84b3-50d3c6121185" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mvnTree.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvninstall.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnpom.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/swipe/ng/appcodes/AppCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/appcodes/AppCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/AccountType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/ActivationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/ActivationType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/AppStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/AppStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/swipe/ng/messages/MessageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/messages/MessageUtil.java" afterDir="false" />
     </list>
@@ -51,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/SwipeTech/Projects/SWIPE_SERVICES/central-resource-service/src/main/java/swipe/ng/enums",
+    "last_opened_file_path": "C:/Users/USER/Desktop/Swipe_projects/cardproduction",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
