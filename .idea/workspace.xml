@@ -5,29 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4628b9f9-efb8-43f1-84b3-50d3c6121185" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mvnTree.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvninstall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnpom.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swipe/ng/appcodes/AppCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/appcodes/AppCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/AccountType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/ActivationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/ActivationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/AppStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/enums/AppStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swipe/ng/messages/MessageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swipe/ng/messages/MessageUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2KH7IWAptGmi7pk4gIWcv9YpmUO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/SwipeTech/Projects/SWIPE_SERVICES/central-resource-service/src/main/java/swipe/ng/enums",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5482759",
+    "settings.editor.selected.configurable": "Groovy compiler"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SwipeTech\Projects\SWIPE_SERVICES\central-resource-service\src\main\java\swipe\ng\enums" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="swipe.ng.messages" />
+      <recent name="swipe.ng.appcodes" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,7 +80,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673619579973</updated>
-      <workItem from="1673619581839" duration="5000" />
+      <workItem from="1673619581839" duration="4182000" />
+      <workItem from="1673714110285" duration="637000" />
+      <workItem from="1673801083040" duration="71000" />
+      <workItem from="1673819324158" duration="7466000" />
     </task>
     <servers />
   </component>
@@ -53,5 +100,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

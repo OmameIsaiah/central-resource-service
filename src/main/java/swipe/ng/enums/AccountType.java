@@ -4,15 +4,27 @@ import java.util.HashMap;
 import java.util.Map;
 
 public enum AccountType {
-    USER(2,"USER"),
-    ACCOUNT(9,"ACCOUNT"),
-    ADMINISTRATOR(4,"ADMINISTRATOR")
-    ,MERCHANT(6,"MERCHANT"),
-    SUPPORT(8,"SUPPORT"),
-    SUPPER_USER(7,"SUPPER USER"),
-    COLLECTOR(11,"COLLECTOR AGENT"),
-    BANK(5,"BANK"),
-    DISBURSEMENT(10,"DISBURSEMENT");
+    /**
+     * <pre>
+     * USER
+     * AccountId=2, Label=USER
+     * </pre>
+     */
+    USER(2, "USER"),
+    /**
+     * <pre>
+     * ACCOUNT
+     * AccountId=9, Label=ACCOUNT
+     * </pre>
+     */
+    ACCOUNT(9, "ACCOUNT"),
+    ADMINISTRATOR(4, "ADMINISTRATOR"),
+    MERCHANT(6, "MERCHANT"),
+    SUPPORT(8, "SUPPORT"),
+    SUPPER_USER(7, "SUPPER USER"),
+    COLLECTOR(11, "COLLECTOR AGENT"),
+    BANK(5, "BANK"),
+    DISBURSEMENT(10, "DISBURSEMENT");
 
     public final Integer accountId;
     public final String label;
@@ -24,11 +36,13 @@ public enum AccountType {
             map.put(e.label, e);
         }
     }
+
     private AccountType(Integer accountId, String label) {
         this.accountId = accountId;
-        this.label=label;
+        this.label = label;
 
     }
+
     public static AccountType valueOfName(String label) {
         return map.get(label);
     }

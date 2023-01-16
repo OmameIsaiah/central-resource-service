@@ -4,7 +4,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 public enum ActivationType {
+    /**
+     * <pre>
+     * WALLET
+     * Label=Wallet
+     * </pre>
+     */
     WALLET("Wallet"),
+    /**
+     * <pre>
+     * ACCOUNT
+     * Label=Account
+     * </pre>
+     */
     ACCOUNT("Account");
 
 

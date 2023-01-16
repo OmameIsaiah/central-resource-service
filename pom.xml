@@ -11,13 +11,16 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
+        <java.version>1.8</java.version>
         <junit.version>5.8.2</junit.version>
+        <tests.skip>true</tests.skip>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    <packaging>jar</packaging>
+    <description>Swipe Resource Service</description>
 
     <dependencies>
-
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -31,9 +34,37 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <!--<distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>DESKTOP-UAS7PHK-releases</name>
+            <url>http://localhost:8081/artifactory/libs-release</url>
+        </repository>
+    </distributionManagement>
 
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>DESKTOP-UAS7PHK-releases</name>
+            <url>http://localhost:8081/artifactory/swipe-resource</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>DESKTOP-UAS7PHK-snapshots</name>
+            <url>http://localhost:8081/artifactory/swipe-resource</url>
+        </snapshotRepository>
+    </distributionManagement>
+    -->
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>

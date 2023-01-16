@@ -1,8 +1,26 @@
-package swipe.ng.util;
+package swipe.ng.messages;
 
 public class MessageUtil {
+    /**
+     * <pre>
+     * NOT_FOUND_MERCHANT
+     * Oops! Record with specified constraints not found
+     * </pre>
+     */
     public final static String NOT_FOUND_MERCHANT = "Oops! Record with specified constraints not found";
+    /**
+     * <pre>
+     * CARD_REQUIRED
+     * Oops, denied because your linked card is not valid. Link a valid card with at least 3 month expiry date by funding your wallet with any amount
+     * </pre>
+     */
     public final static String CARD_REQUIRED = "Oops, denied because your linked card is not valid. Link a valid card with at least 3 month expiry date by funding your wallet with any amount";
+    /**
+     * <pre>
+     * USED_SAME_CARD
+     * Oops, it seems you activated the swipe card with a card associated with another user
+     * </pre>
+     */
     public final static String USED_SAME_CARD = "Oops, it seems you activated the swipe card with a card associated with another user";
     public final static String CARD_CLEARED = "Fund on the card cleared successfully";
     public final static String APP_UPDATE_REQUIRED = "Hello, kindly download new version of the application for better performance";
@@ -145,5 +163,6 @@ public class MessageUtil {
     public static final String EMAIL_SENT = "Email activation sent to the registered email address";
 
     public static final String ERROR = "Error";
+
 
 }

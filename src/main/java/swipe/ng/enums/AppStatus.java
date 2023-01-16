@@ -4,13 +4,24 @@ import java.util.HashMap;
 import java.util.Map;
 
 public enum AppStatus {
+    /**
+     * <pre>
+     * APPROVE
+     * Label=Approved
+     * </pre>
+     */
     APPROVE("Approved"),
+    /**
+     * <pre>
+     * ACTIVE
+     * Label=Active
+     * </pre>
+     */
     ACTIVE("Active"),
     IN_PROGRESS("In Progress"),
     COMPLETED("Completed"),
     IN_ACTIVE("InActive"),
     CARD("Card"),
-
     REJECT("Rejected");
 
 
