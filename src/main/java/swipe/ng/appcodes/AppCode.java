@@ -22,6 +22,12 @@ public class AppCode {
      * </pre>
      */
     public static final String CREATED = "201";
+    /**
+     * <pre>
+     * NOT_FOUND (404)
+     * Record not found
+     * </pre>
+     */
     public static final String NOT_FOUND = "404";
     public static final String BAD_REQUEST = "400";
     public static final String DUPLICATE = "300";
