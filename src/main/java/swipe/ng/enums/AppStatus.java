@@ -18,10 +18,40 @@ public enum AppStatus {
      * </pre>
      */
     ACTIVE("Active"),
+    /**
+     * <pre>
+     * IN PROGRESS
+     * Label=In Progress
+     * </pre>
+     */
     IN_PROGRESS("In Progress"),
+    /**
+     * <pre>
+     *COMPLETED
+     * Label=Completed
+     * </pre>
+     */
     COMPLETED("Completed"),
+    /**
+     * <pre>
+     * INACTIVE
+     * Label=InActive
+     * </pre>
+     */
     IN_ACTIVE("InActive"),
+    /**
+     * <pre>
+     * CARD
+     * Label=Card
+     * </pre>
+     */
     CARD("Card"),
+    /**
+     * <pre>
+     * REJECTED
+     * Label=Rejected
+     * </pre>
+     */
     REJECT("Rejected");
 
 
